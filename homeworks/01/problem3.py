@@ -38,7 +38,7 @@ print('Sorted b:', b_sorted)
 
 # 9)
 
-c = b[1:4] + b[4:7]
+c = a[1:4] + b[4:7]
 
 # 10
 
