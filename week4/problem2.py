@@ -1,6 +1,6 @@
 def convert_to_lowercase(func):
   def wrapper(*args, **kwargs):
-    result = func(*args, **kwargs).lower()
+    result = func(*args, **kwargs).title()
 
     return result
 
